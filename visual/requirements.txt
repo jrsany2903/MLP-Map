@@ -1,0 +1,14 @@
+#Python requirements for pyvista with jupyter support.
+python_version >= "3.10"
+
+# Notebook
+jupyter
+ipywidgets     
+
+# Core
+numpy<2             # PyVista / VTK ABI safe
+pyvista[jupyter]   # PyVista + Jupyter support
+vtk                  # 3D rendering backend       
+
+# Image handling
+pillow
